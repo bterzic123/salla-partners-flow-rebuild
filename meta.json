@@ -1,0 +1,15 @@
+{
+  "scope": "flow",
+  "today": { "text": "every new partner answers eight questions across two pages, taps Get started and lands on the Affiliate marketing tab at 0, under confetti", "source": "audit_frames" },
+  "prices": { "salla_plus": "99 / month", "salla_pro": "299 / month", "trial": "none", "note": "merchant plans partners promote; the Salla Partners app sells nothing", "source": "the app's Salla Plans screen; App Store listing (free, no in-app purchases)" },
+  "asks": ["Choose your legal entity", "Your geographic location", "Nationality", "What services do you provide?", "Do you have a product/solution ready to integrate now?", "Have you worked with other platform partners such as (Shopify, WooCommerce, Zid…)?", "When do you expect to launch your solution?", "Who is the target audience for your solution?"],
+  "paywall": { "headline": "none: the app has no paywall", "uses_answers": false },
+  "rebuild": "the services a partner picks decide whether they see page 2, which first step they get (create affiliate marketing link, publish my profile, add my first service) and which dashboard tab opens",
+  "ideas": [
+    { "n": 1, "title": "Open the dashboard on the program they picked", "screen": "Dashboard", "outcome": "Measure: first action in week one, per program" },
+    { "n": 2, "title": "Ask page 2 only of partners who build something", "screen": "Quiz page 2", "outcome": "Measure: quiz completion, per partner type" },
+    { "n": 3, "title": "Show the Smart earnings engine right after the quiz", "screen": "First step", "outcome": "Measure: affiliate links created on day one" },
+    { "n": 4, "title": "End Get started on one first step, not confetti over 0", "screen": "First step", "outcome": "Measure: day-one activation, per program" },
+    { "n": 5, "title": "Make the setup moment read their answers back", "screen": "Setting up", "outcome": "Measure: share who reach the first step" }
+  ]
+}
